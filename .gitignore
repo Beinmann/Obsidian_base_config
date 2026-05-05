@@ -2,3 +2,11 @@ workspace.json
 workspace-mobile.json
 .obsidian/cache
 .trash
+
+# Plugin code — keep only per-plugin config (data.json)
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+
+# Theme files — keep only manifest
+.obsidian/themes/*/*
+!.obsidian/themes/*/manifest.json
