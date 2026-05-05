@@ -1,10 +1,10 @@
 [
-  "obsidian-git",
   "quickadd",
   "obsidian-scroll-offset",
   "templater-obsidian",
   "obsidian-vimrc-support",
   "obsidian-excalidraw-plugin",
   "dataview",
-  "calendar"
+  "calendar",
+  "obsidian-git"
 ]
