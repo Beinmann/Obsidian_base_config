@@ -1,0 +1,772 @@
+{
+  "choices": [
+    {
+      "id": "b4f86545-fde4-484d-ac48-e54dda71f588",
+      "name": "Template - add new data",
+      "type": "Template",
+      "command": false,
+      "templatePath": "Templates/Test Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{Value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Database"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "e486555e-f492-4cd4-b660-dd6e0935dc37",
+      "name": "Test Macro Choice",
+      "type": "Macro",
+      "command": false,
+      "macroId": "bd182b4e-95b7-4010-a5f2-0784ee83b172"
+    },
+    {
+      "id": "f82d045f-6475-4f05-988e-fef7a9dbd115",
+      "name": "Add Quick Note In Braindump",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/Braindump.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{Value}} - {{DATE:DD.MM.YYYY HH:mm}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# New",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "bottom"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "276cbc09-8ca3-4756-892b-1fd756ebe559",
+      "name": "Add Quick Entry into RAM",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/RAM - List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5d239cf4-71be-4a87-ad19-ca8e4e34d4d5",
+      "name": "AddNewSummary_WithLink",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Summary Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:DD.MM.yyyy}} - Note"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Notes and Summaries"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "315926a3-afc7-4bd9-9caa-e1b7d49ed47c",
+      "name": "AddNewSummary_NoLink",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Summary Template.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:DD.MM.yyyy}} - Note"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Notes and Summaries"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "6a3d312a-caea-481d-8115-deeeca785d99",
+      "name": "Helper - Create Notes and Summary page",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Empty page.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:DD.MM.yyyy}} - Note"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Notes and Summaries"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "6d59c253-3a8b-4779-9ca6-31cd2ec8ec20",
+      "name": "Helper - Create Permanent Note",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Empty page.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "PN - {{DATE:yyMMDDHHmmss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Permanent notes/PN"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "1f329af6-fc99-421b-8261-e6790faad7bb",
+      "name": "Helper - Create note anywhere",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/Empty page.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE:DD.MM.yyyy}} - Note"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [],
+        "chooseWhenCreatingNote": true,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "2dc8e96a-deb5-420a-abc2-7f7ea9f71d31",
+      "name": "Push all",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e3d6cd3a-7e5d-46d9-8e43-b439601365ac"
+    },
+    {
+      "id": "e81818c9-9baf-4d9f-91b9-f81da13ed2eb",
+      "name": "Test_Javascript_Macro",
+      "type": "Macro",
+      "command": true,
+      "macroId": "6ca6f6f2-9b22-46ef-a39e-1ee9e8d47f25"
+    },
+    {
+      "id": "4b9c33c8-79c8-4573-b147-383f24f60f3d",
+      "name": "Add Quick Craving Entry into Log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/Craving, Barrier and Distractions log - List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-orange\">craving</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "aefc5302-cb5e-4e4b-b44b-59b917b88167",
+      "name": "Add Quick barrier Entry into Log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/Craving, Barrier and Distractions log - List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-blue\">barrier</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "9c003cf7-bf72-44f8-bcf4-76199f099197",
+      "name": "Add Quick distraction Entry into Log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/Craving, Barrier and Distractions log - List.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-darker-yellow\">distraction</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c572acd4-d9a8-4151-b8f9-2cd950e394b3",
+      "name": "Add done entry into log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/done, notes to self and more list or log.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-green\">done</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "691b3e30-8743-4614-9c31-376d551a623c",
+      "name": "Add nice thing to do into log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/nice things.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- [ ] {{time}} <span class=\"text-green\">nice thing</span> - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "c615a16c-45e6-49ad-8232-67b680995af6",
+      "name": "Add negative thought into log or dump",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/Negative thoughts dump (maybe sort).md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}} <span class=\"text-red\">negative thought</span> - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "### {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "81030b8f-1b2d-404c-8166-2704534b0c2a",
+      "name": "Add entry to positive thoughts and experiences page",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Introspection/⭐ Positive thoughts and Experiences.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- {{time}} <span class=\"text-green\">positive thought or experience</span> - {{value}}\n"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "### {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "51a2b604-e629-4ce3-bb09-4fb6d1f0905a",
+      "name": "Add to saved content for the month (september)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Saved Content/Saved content september 2025 (current).md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- saved - {{value}} - {{TIME:DD.MM.yyyy}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "",
+        "insertAtEnd": false,
+        "considerSubsections": false,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "faa5a78f-18a9-4164-9ba7-fe3559305f62",
+      "name": "Add doing entry into log",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/done, notes to self and more list or log.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-green\">doing</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "b53f772f-1648-48d1-bc59-1c8320faefd4",
+      "name": "Add learned things into today I learned",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/done, notes to self and more list or log.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span class=\"text-green\">learned</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "3f81f6ad-d67b-4402-9a2a-3e86bd4581f2",
+      "name": "Add note to self into log (A side)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/done, notes to self and more list or log.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span style=\"color:#85CEF2;\">note to self (A)</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "5a375245-e05c-478e-a286-4faf308ea908",
+      "name": "Add note to self into log (B side)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "0_most_important_pages/done, notes to self and more list or log.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": false,
+        "template": ""
+      },
+      "format": {
+        "enabled": true,
+        "format": "- <span style=\"color:#85CEF2;\">note to self (B)</span> {{DATE:DD.MM.YYYY}} {{time}} - {{value}}"
+      },
+      "insertAfter": {
+        "enabled": false,
+        "after": "# {{DATE:DD.MM.YYYY}}",
+        "insertAtEnd": true,
+        "considerSubsections": false,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": true,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "4d436afa-31c0-4936-8168-ce623aaba259",
+      "name": "awlkdjalwkdjlakwjd",
+      "type": "Macro",
+      "command": false,
+      "macroId": "3c90fcc6-b23e-42db-8a92-f9f50f488f56"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Test Macro Choice",
+      "id": "bd182b4e-95b7-4010-a5f2-0784ee83b172",
+      "commands": [],
+      "runOnStartup": false
+    },
+    {
+      "name": "Push all",
+      "id": "e3d6cd3a-7e5d-46d9-8e43-b439601365ac",
+      "commands": [
+        {
+          "name": "Git: Commit all changes",
+          "type": "Obsidian",
+          "id": "66fc1f9c-80e6-4eff-97a0-614045af4818",
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "name": "Git: Push",
+          "type": "Obsidian",
+          "id": "edf17ff6-e201-4f9f-9d62-9bd95e8c5507",
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Test_Javascript_Macro",
+      "id": "6ca6f6f2-9b22-46ef-a39e-1ee9e8d47f25",
+      "commands": [
+        {
+          "name": "test_script",
+          "type": "UserScript",
+          "id": "81822736-9fcc-4f08-88f9-42f868f990f4",
+          "path": "Scripts/test_script.js",
+          "settings": {
+            "Text field": "",
+            "Checkbox": false,
+            "Dropdown": "Option 1",
+            "Format": "{{DATE:YYYY-MM-DD}}"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "awlkdjalwkdjlakwjd",
+      "id": "3c90fcc6-b23e-42db-8a92-f9f50f488f56",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "1.2.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

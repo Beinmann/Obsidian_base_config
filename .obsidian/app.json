@@ -1,0 +1,15 @@
+{
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "spellcheckLanguages": null,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Images",
+  "spellcheck": false,
+  "trashOption": "local",
+  "vimMode": true,
+  "propertiesInDocument": "visible"
+}

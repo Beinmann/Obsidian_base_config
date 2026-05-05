@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 19,
+  "enabledCssSnippets": [
+    "snippet",
+    "Dune-mermaid"
+  ],
+  "theme": "obsidian",
+  "showViewHeader": true
+}

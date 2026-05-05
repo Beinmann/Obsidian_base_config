@@ -1,0 +1,6 @@
+{
+  "accelerators": {
+    "quickadd:choice:f82d045f-6475-4f05-988e-fef7a9dbd115": "CommandOrControl+Shift+Q",
+    "quickadd:choice:276cbc09-8ca3-4756-892b-1fd756ebe559": "Ctrl + Num4"
+  }
+}
