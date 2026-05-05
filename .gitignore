@@ -2,6 +2,7 @@ workspace.json
 workspace-mobile.json
 .obsidian/cache
 .trash
+Dune-mermaid.css
 
 # Plugin code — keep only per-plugin config (data.json)
 .obsidian/plugins/*/*
