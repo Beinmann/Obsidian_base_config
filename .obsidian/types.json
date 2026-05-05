@@ -29,6 +29,8 @@
     "modType": "multitext",
     "mod_type": "multitext",
     "will_install_mod_now": "checkbox",
-    "rating_out_of_ten": "number"
+    "rating_out_of_ten": "number",
+    "excalidraw-export-internal-links": "checkbox",
+    "excalidraw-embed-md": "checkbox"
   }
 }
