@@ -1,0 +1,4 @@
+- what did I like about this experiment?
+- what did I dislike about the experiment?
+- what will I take with me from this experiment?
+- when will I come back to this experiment?
