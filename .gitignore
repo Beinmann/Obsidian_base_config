@@ -3,6 +3,8 @@ workspace-mobile.json
 .obsidian/cache
 .trash
 Dune-mermaid.css
+.obsidian/bookmarks.json
+.obsidian/core-plugins-migration.json
 
 # Plugin code — keep only per-plugin config (data.json)
 .obsidian/plugins/*/*

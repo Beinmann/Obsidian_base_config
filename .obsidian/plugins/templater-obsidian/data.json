@@ -17,7 +17,6 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "Templates/Random Thought Template.md",
     "Templates/current_date_Template_offset_8_hours_in_past.md"
   ],
   "startup_templates": [
